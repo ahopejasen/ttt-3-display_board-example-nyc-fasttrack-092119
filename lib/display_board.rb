@@ -4,11 +4,13 @@ def display_board
   row= three_spaces + "|" +  three_spaces + "|" + three_spaces
   divider= "-" * 11
   
+  #print the first four lines
   for i in 0..1 do
     puts row
     puts divider
   end
   
+  #print last row
   puts row
   
 end
